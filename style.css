@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    background: #007bff;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+
+nav {
+    background: #005fcc;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 700px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project-goal {
+    color: #005fcc;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.container strong {
+    color: #005fcc;
+    font-weight: 700;
+}
+
+input[type="text"], textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #218838;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.message {
+    background: #fafafa;
+    border-left: 4px solid #007bff;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.message .name {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.message .date {
+    color: #777;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    border: 1px solid red;
+    padding: 10px;
+    background: #ffe6e6;
+    border-radius: 4px;
+}
