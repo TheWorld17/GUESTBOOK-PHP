@@ -14,7 +14,7 @@
 
 Prosty projekt **Księgi Gości** napisany w czystym PHP, służący jako praca zaliczeniowa/projektowa z podstaw programowania dynamicznych stron internetowych. Projekt umożliwia użytkownikom dodawanie krótkich wpisów, które są następnie trwale zapisywane w pliku tekstowym na serwerze.
 
-**Autory:** Roman Vykeryk Bohdan Melnychuk Artem Semenko
+**Autor:** Roman Vykeryk
 
 ## 2. Cel Projektu
 
@@ -66,4 +66,5 @@ Aby uruchomić ten projekt lokalnie, potrzebujesz środowiska serwera WWW z obs�
 | `save.php` | Skrypt PHP odpowiedzialny za walidację, zabezpieczenie danych i zapisanie ich do pliku. Następnie przekierowuje użytkownika z powrotem do `guestbook.php`. |
 | `style.css` | Arkusz stylów CSS do formatowania wyglądu strony. |
 | `data.txt` | Plik tekstowy, który służy jako prosta baza danych, przechowując wpisy w formacie `Imię|Wiadomość|Data`. |
+
 
